@@ -1,26 +1,25 @@
 # projeto-final-embarcados
 
-       O sistema utiliza sensores para ler temperatura, umidade e luminosidade. Ele possui uma interface visual 
- em um display OLED e permite que o usuário ajuste a temperatura desejada (SetPoint) através de botões físicos.
-Além disso, o dispositivo registra as leituras em um histórico armazenado na memória interna do chip.
+###Descricao do Projeto
+O sistema utiliza sensores para ler temperatura, umidade e luminosidade. Ele possui uma interface visual em um display OLED e permite que o usuario ajuste a temperatura desejada (SetPoint) atraves de botoes fisicos. Alem disso, o dispositivo registra as leituras em um historico armazenado na memoria interna do chip.
 
+###Diagrama de Blocos
+Configuracao e Instalacao
+Ambiente: Utilize a IDE do Arduino ou o simulador Wokwi.
 
-Utilize a IDE do Arduino ou o simulador Wokwi.
+Bibliotecas: Instale as bibliotecas DHTesp, Adafruit_SSD1306 e Adafruit_GFX.
 
-Instale as bibliotecas necessárias: DHTesp, Adafruit_SSD1306 e Adafruit_GFX.
+Memoria: Certifique-se de habilitar o sistema de arquivos LittleFS para o funcionamento do log.
 
-Certifique-se de habilitar o sistema de arquivos LittleFS para o funcionamento do log.
-
-
+###Instrucoes de Uso
 Tela Principal: Mostra as leituras de temperatura, umidade e luz em tempo real.
 
 Menu: Pressione OK para entrar no menu. Use UP/DOWN para navegar.
 
-Ajuste de SetPoint: No menu "SetPoint", use os botões para definir a temperatura ideal da estufa.
+Ajuste de SetPoint: No menu SetPoint, use os botoes para definir a temperatura ideal da estufa.
 
-Controle Automático: O LED Vermelho acenderá sempre que a temperatura ambiente estiver abaixo do SetPoint definido.
+Controle Automatico: O LED Vermelho acendera sempre que a temperatura ambiente estiver abaixo do SetPoint definido.
 
-
-Exemplo de Funcionamento (Wokwi)
-Você pode testar o projeto online através deste link:
-https://wokwi.com/projects/461888429305547777
+###Exemplo de Funcionamento (Wokwi)
+Voce pode testar o projeto online atraves do link abaixo:
+Projeto no Wokwi
