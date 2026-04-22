@@ -1,6 +1,8 @@
 # projeto-final-embarcados
 
-       O sistema utiliza sensores para ler temperatura, umidade e luminosidade. Ele possui uma interface visual em um display OLED e permite que o usuário ajuste a temperatura desejada (SetPoint) através de botões físicos. Além disso, o dispositivo registra as leituras em um histórico armazenado na memória interna do chip.
+       O sistema utiliza sensores para ler temperatura, umidade e luminosidade. Ele possui uma interface visual 
+ em um display OLED e permite que o usuário ajuste a temperatura desejada (SetPoint) através de botões físicos.
+Além disso, o dispositivo registra as leituras em um histórico armazenado na memória interna do chip.
 
 
 Utilize a IDE do Arduino ou o simulador Wokwi.
